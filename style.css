@@ -20,7 +20,7 @@ header h1 {
     color: white;
     font-size: 42px;
     text-transform: uppercase;
-    text-shadow: -4px 1px var(--primary);
+    text-shadow: -4px 1px white;
 }
 
 
