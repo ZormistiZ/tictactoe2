@@ -18,3 +18,19 @@ td {
 .horizontal {
     border-bottom: 5px solid black;
 }
+
+.status {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 20px auto;
+}
+
+.restart {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: lightseagreen;
+    box-shadow: 2px 2px 2px 2px #002b27;
+    border: 2px solid #002b27;
+}
