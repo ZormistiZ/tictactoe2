@@ -1,3 +1,10 @@
+console.log("DEBUT scriptjava.js");
+
+let td = document.getElementById("HG")
+console.log(td);
+console.log("FIN scriptjava.js");
+
+
 const statusDisplay = document.querySelector('.status');
 
 let gameActive = true;

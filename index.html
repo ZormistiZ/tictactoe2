@@ -4,19 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-	<title>TicTacToe2</title>
+	<title>Tic Tac Toe</title>
 </head>
 
 
 <body class="bdy">
-    <center><h1>Tia Tac Toe 2</h1></center>
+
+    <div id="root">
+    
+    <header><center><h1>TiC Tac Toe</h1></center></header>
     <center><p>Deux joueurs posent tour à tour un O, pour l'un, une X, pour l'autre, dans une grille de 3 par 3.
-        <br>Le but du jeu est d'obtenir un alignement (en ligne, colonne ou diagonale) de ses trois signes.
+        <br>Le but du jeu est d'obtenir un alignement de ses trois signes.
         <br>Contrairement à la marelle, les signes une fois posés ne sont plus déplacés.</p></center>
 
     <center><table>
         <tr>
-            <td class="horizontal"></td>
+            <td id="HG" class="horizontal"></td>
             <td class="vertical horizontal"></td>
             <td class="horizontal"></td>
         </tr>
@@ -39,6 +42,6 @@
     <center><button class="restart">Restart Game</button></center>
 
     <script src="scriptjava.js"></script>
-
+    </div>
 </body>
 </html>
