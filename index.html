@@ -15,29 +15,23 @@
     <header><center><h1>TiC Tac Toe</h1></center></header>
     <center><p>Bienvenu dans le jeu TicTacToe 2! Les règles sont simples, vous êtes deux participant, le participant X et le participant O. Le premier participant à aligner trois fois ses symboles gagne.</p></center>
 
-    <center><table>
-        <tr>
-            <td id="HG" class="horizontal"></td>
-            <td class="vertical horizontal"></td>
-            <td class="horizontal"></td>
-        </tr>
+    </div>
 
-        <tr>
-            <td class="horizontal"></td>
-            <td class="vertical horizontal"></td>
-            <td class="horizontal"></td>
-        </tr>
-
-        <tr>
-            <td></td>
-            <td class="vertical"></td>
-            <td></td>
-        </tr>
-    </table></center>
-
-    <center><h2 class="status"></h2></center>
-
-    <center><button class="restart">Restart Game</button></center>
+    <section>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <center><h2 class="game--status"></h2></center>
+        <center><button class="game--restart">Restart Game</button></center>
+    </section>
 
     <script src="scriptjava.js"></script>
     </div>
