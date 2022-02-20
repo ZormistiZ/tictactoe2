@@ -6,7 +6,7 @@ let gameState = ["", "", "", "", "", "", "", "", ""];
 
 const winningMessage = () => `Joueur ${currentPlayer} à gagner!`;
 const drawMessage = () => `Le jeu ce termine en égalité!`;
-const currentPlayerTurn = () => `A ${currentPlayer} de jouer`;
+const currentPlayerTurn = () => `A '${currentPlayer}' de jouer`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 
