@@ -3,23 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  <!-- Lien vers une feuille de style externe -->
+	<title>Tic Tac Toe</title>  <!-- Titre de la page -->
 </head>
-
 
 <body class="bdy">
 
     <div id="root">
     
-    <header><center><h1>TiC Tac Toe</h1></center></header>
+    <header><center><h1>TiC Tac Toe</h1></center></header>  <!-- En-tête de la page -->
     <br>
-
+    <div style="text-align: center;"> 
+        <strong>  
+            <p>Score X : <span id="scorex"></span></p>  <!-- Affichage du score du joueur X -->
+            <p>Score O : <span id="scorey"></span></p>  <!-- Affichage du score du joueur O -->
+        </strong>
+    </div>
+   
+    <br>
+    
     </div>
 
     <section>
-        <center><div class="game--container">
-            <div data-cell-index="0" class="cell"></div>
+        <div class="game--container">  <!-- Conteneur du plateau de jeu -->
+            <div data-cell-index="0" class="cell"></div>  <!-- Cellule du jeu avec un attribut d'index -->
             <div data-cell-index="1" class="cell"></div>
             <div data-cell-index="2" class="cell"></div>
             <div data-cell-index="3" class="cell"></div>
@@ -28,13 +35,19 @@
             <div data-cell-index="6" class="cell"></div>
             <div data-cell-index="7" class="cell"></div>
             <div data-cell-index="8" class="cell"></div>
-	</div></center>
-        <center><h2 class="game--status"></h2></center>
+        </div>
+        <center><h2 class="game--status"></h2></center>  <!-- Affichage du statut du jeu -->
         <br>
-        <center><button class="game--restart">Restart Game</button></center>
+        <center><button class="game--restart">Restart Game</button></center>  <!-- Bouton pour redémarrer le jeu -->
     </section>
 
-    <script src="scriptjava.js"></script>
+    <script src="scriptjava.js"></script>  <!-- Lien vers le fichier JavaScript externe -->
     </div>
 </body>
+
+<br>
+
+<footer style="text-align: center;">
+    <div class="footer"><p> © Fernand Roux</p></div>  <!-- Pied de page avec le nom de l'auteur -->
+</footer>
 </html>
